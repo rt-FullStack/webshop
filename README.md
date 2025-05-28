@@ -1,12 +1,8 @@
 ‘webshop' React App - Komplett Dokumentation 
 
- 
-
 1. Beskrivning 
 
 Detta är en fullstack-inspirerad e-handelsapplikation byggd med React, som simulerar en verklig webshop. Applikationen är responsiv, har en användarvänlig design och innehåller alla grundläggande funktioner som förväntas av en modern e-handelsplattform: 
-
- 
 
 Välkomstsida - med mjuka animationer för en trevlig användarupplevelse. 
 
@@ -19,8 +15,6 @@ Kundvagn - där användare kan lägga till, ändra antal och ta bort produkter.
 Kassasystem - med formulär för kunduppgifter och orderbekräftelse. 
 
 Responsiv design - som fungerar på både mobil och desktop. 
-
- 
 
 2. Teknologier & Bibliotek 
 
@@ -52,8 +46,6 @@ API
 
 DummyJSON (https://dummyjson.com/products) – Ger realistisk produktdata. 
 
- 
-
 3. Komponentstruktur (Detaljerad) 
 
 Huvudkomponenter 
@@ -70,11 +62,6 @@ index.js
 
 Appens startpunkt, omsluter allt med CartProvider. 
 
- 
-
- 
-
- 
 
 Sidor (/pages) 
 
@@ -98,9 +85,6 @@ CheckoutPage.jsx
 
 Kassasida med formulär och orderbekräftelse. 
 
- 
-
- 
 
 Komponenter (/components) 
 
@@ -137,32 +121,14 @@ Checkout.jsx
 Sammanfattning av beställning. 
 
  
-
- 
-
- 
-
 Context (/context) 
-
-Fil 
-
-Beskrivning 
 
 CartContext.js 
 
 Hanterar kundvagnens tillstånd (cartItems, addToCart, removeFromCart, updateQuantity, clearCart, totalPrice). 
 
  
-
- 
-
- 
-
 API (/services) 
-
-Fil 
-
-Beskrivning 
 
 api.js 
 
@@ -170,9 +136,6 @@ Axios-funktioner för fetchProducts() och fetchProductById(id).
 
 Styling (/styles) 
 
-Fil 
-
-Beskrivning 
 
 App.scss 
 
@@ -196,14 +159,9 @@ Node.js (v16+)
 
 npm  
 
- 
-
 Steg-för-steg 
 
-Klona repot: 
-
 git clone webshop 
-
 cd webshop 
 
 Installera beroenden: 
@@ -216,13 +174,9 @@ npm start
 
 Appen öppnas automatiskt på http://localhost:3000. 
 
- 
 
 Bygg för produktion: 
-
 npm run build 
-
- 
 
 5. Funktioner (Djupdykning) 
 
@@ -238,7 +192,6 @@ clearCart() – Tömmer hela varukorgen.
 
 totalPrice – Beräknar totalsumman automatiskt. 
 
- 
 
 B. Sidor & Routing 
 
@@ -280,7 +233,6 @@ Flexbox/Grid för anpassningsbara layouter.
 
 Optimerad för touch (stora knappar, enkel navigering). 
 
- 
 
 6. Utvecklare & Licens 
 

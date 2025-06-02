@@ -187,5 +187,4 @@ Slutsats
 Denna webbshop representerar en fullt fungerande e-handelsplattform med alla grundläggande funktioner. Projektet demonstrerar goda kunskaper i React, tillståndshantering och responsiv webbutveckling. Plattformen är redo för vidareutveckling med fler avancerade funktioner.
 
 Utvecklad av: Syedur Rahman
-Kurs: React.js på Företagsuniversitetet
-Datum: 2025/06/27
+Datum: 2025/05/27

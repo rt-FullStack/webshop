@@ -104,7 +104,7 @@ C. Responsiv Design
 
 # Utvecklare & Licens 
 - Skapad av: Syedur Rahman 
-- Kurs: React.js på Företagsuniversitetet 
+- Kurs: Frontend Ramverk/Bibliotek (React, Angular) på Företagsuniversitetet 
 - Licens: Öppen för utbildningssyfte 
 
  

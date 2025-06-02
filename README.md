@@ -14,49 +14,49 @@ Detta är en fullstack-inspirerad e-handelsapplikation byggd med React, som simu
 # Installation & Start 
 Krav: Node.js (v16+) och npm  
 
-# > Steg-för-steg ()
+A. Steg-för-steg ()
 - git clone webshop 
 - cd webshop 
 - npm install
 
-# Starta utvecklingsservern: 
+B. Starta utvecklingsservern: 
 - npm start 
 - Appen öppnas automatiskt på http://localhost:3000. 
   
 # Teknologier & Bibliotek 
 
-# > Frontend 
+1. Frontend 
 - React (Hooks: useState, useEffect, useContext, useParams, useNavigate) 
 - React Router v6 (för routing/navigering) 
 - Axios (för API-anrop) 
 - Framer Motion (för animationer) 
 - React Icons (för sociala medier-ikoner)
 
-# > Styling 
+2. Styling 
 - SCSS (modulär styling, variabler, nesting) 
 - Flexbox & CSS Grid (för layout) 
 - Media Queries (för responsivitet)
 
-# > Tillståndshantering 
+2. Tillståndshantering 
 - Context API (för global tillgång till kundvagnen) 
 - API 
 - DummyJSON (https://dummyjson.com/products) – Ger realistisk produktdata. 
 
 # Komponentstruktur (Detaljerad) 
 
-# > Huvudkomponenter 
+1. Huvudkomponenter 
 
 - App.js: Rotkomponent som hanterar routing. 
 - index.js: Appens startpunkt, omsluter allt med CartProvider. 
 
-# > Sidor (/pages) 
+2. Sidor (/pages) 
 
 - WelcomePage.jsx: Förstasidan med animationer och länk till shoppen. 
 - HomePage.jsx: Visar alla produkter (ProductList). 
 - ProductPage.jsx: Visar detaljer för en enskild produkt. 
 - CheckoutPage.jsx: Kassasida med formulär och orderbekräftelse. 
 
-# > Komponenter (/components) 
+3. Komponenter (/components) 
 
 - Header.jsx: Navigeringsmeny med varukorgsräknare. 
 - Footer.jsx: Kontaktinfo & sociala medier-länkar. 
@@ -66,15 +66,15 @@ Krav: Node.js (v16+) och npm
 - CartItem.jsx: Enskild produkt i varukorgen (med +/- knappar). 
 - Checkout.jsx: Sammanfattning av beställning. 
 
-# > Context (/context) 
+4. Context (/context) 
 
 - CartContext.js: Hanterar kundvagnens tillstånd (cartItems, addToCart, removeFromCart, updateQuantity, clearCart, totalPrice). 
 
-# > API (/services) 
+5. API (/services) 
 
 - api.js: Axios-funktioner för fetchProducts() och fetchProductById(id). 
 
-# > Styling (/styles) 
+6. Styling (/styles) 
 
 - App.scss: Globala stilar (header, produkter, kundvagn). 
 - Footer.scss: Anpassad styling för sidfot. 

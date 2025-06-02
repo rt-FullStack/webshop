@@ -1,4 +1,4 @@
-# ‘webshop' React App #
+# webshop: React Projekt #
 
 # Beskrivning 
 

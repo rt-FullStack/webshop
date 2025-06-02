@@ -4,12 +4,12 @@
 
 Detta är en fullstack-inspirerad e-handelsapplikation byggd med React, som simulerar en verklig webshop. Applikationen är responsiv, har en användarvänlig design och innehåller alla grundläggande funktioner som förväntas av en modern e-handelsplattform: 
 
-Välkomstsida - med mjuka animationer för en trevlig användarupplevelse. 
-Produktkatalog - som hämtar data från ett externt API (DummyJSON). 
-Produktdetaljer - med bilder, beskrivningar och prisinformation. 
-Kundvagn - där användare kan lägga till, ändra antal och ta bort produkter. 
-Kassasystem - med formulär för kunduppgifter och orderbekräftelse. 
-Responsiv design - som fungerar på både mobil och desktop. 
+- Välkomstsida - med mjuka animationer för en trevlig användarupplevelse. 
+- Produktkatalog - som hämtar data från ett externt API (DummyJSON). 
+- Produktdetaljer - med bilder, beskrivningar och prisinformation. 
+- Kundvagn - där användare kan lägga till, ändra antal och ta bort produkter. 
+- Kassasystem - med formulär för kunduppgifter och orderbekräftelse. 
+- Responsiv design - som fungerar på både mobil och desktop. 
 
 # Installation & Start 
 Krav: Node.js (v16+) och npm  

@@ -14,7 +14,7 @@ Detta är en fullstack-inspirerad e-handelsapplikation byggd med React, som simu
 # Installation & Start 
 Krav: Node.js (v16+) och npm  
 
-# Steg-för-steg ()
+# > Steg-för-steg ()
 - git clone webshop 
 - cd webshop 
 - npm install
@@ -25,38 +25,38 @@ Krav: Node.js (v16+) och npm
   
 # Teknologier & Bibliotek 
 
-# Frontend 
+# > Frontend 
 - React (Hooks: useState, useEffect, useContext, useParams, useNavigate) 
 - React Router v6 (för routing/navigering) 
 - Axios (för API-anrop) 
 - Framer Motion (för animationer) 
 - React Icons (för sociala medier-ikoner)
 
-# Styling 
+# > Styling 
 - SCSS (modulär styling, variabler, nesting) 
 - Flexbox & CSS Grid (för layout) 
 - Media Queries (för responsivitet)
 
-# Tillståndshantering 
+# > Tillståndshantering 
 - Context API (för global tillgång till kundvagnen) 
 - API 
 - DummyJSON (https://dummyjson.com/products) – Ger realistisk produktdata. 
 
 # Komponentstruktur (Detaljerad) 
 
-# Huvudkomponenter 
+# > Huvudkomponenter 
 
 - App.js: Rotkomponent som hanterar routing. 
 - index.js: Appens startpunkt, omsluter allt med CartProvider. 
 
-# Sidor (/pages) 
+# > Sidor (/pages) 
 
 - WelcomePage.jsx: Förstasidan med animationer och länk till shoppen. 
 - HomePage.jsx: Visar alla produkter (ProductList). 
 - ProductPage.jsx: Visar detaljer för en enskild produkt. 
 - CheckoutPage.jsx: Kassasida med formulär och orderbekräftelse. 
 
-# Komponenter (/components) 
+# > Komponenter (/components) 
 
 - Header.jsx: Navigeringsmeny med varukorgsräknare. 
 - Footer.jsx: Kontaktinfo & sociala medier-länkar. 
@@ -66,15 +66,15 @@ Krav: Node.js (v16+) och npm
 - CartItem.jsx: Enskild produkt i varukorgen (med +/- knappar). 
 - Checkout.jsx: Sammanfattning av beställning. 
 
-# Context (/context) 
+# > Context (/context) 
 
 - CartContext.js: Hanterar kundvagnens tillstånd (cartItems, addToCart, removeFromCart, updateQuantity, clearCart, totalPrice). 
 
-# API (/services) 
+# > API (/services) 
 
 - api.js: Axios-funktioner för fetchProducts() och fetchProductById(id). 
 
-# Styling (/styles) 
+# > Styling (/styles) 
 
 - App.scss: Globala stilar (header, produkter, kundvagn). 
 - Footer.scss: Anpassad styling för sidfot. 
